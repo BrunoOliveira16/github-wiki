@@ -13,9 +13,13 @@ export const InputContainer = styled.div `
         padding: 0 1rem;
 
         background: transparent;
-        border: 0;
+        border: none;
 
-        font-size: 1.25rem;
+        font-size: 1rem;
         color: #ffffff;
+    }
+
+    input:focus-visible {
+        outline: none;
     }
 `

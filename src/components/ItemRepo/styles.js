@@ -14,8 +14,31 @@ export const ItemContainer = styled.div `
         margin-bottom: 1.25rem;
     }
 
-    a.remover {
-        color: #ff0000;
+    .container-link {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .remove, .repo {
+        padding: 3px 6px;
+        color: #fafafa;
+
+        border: none;
+        border-radius: .3rem; 
+        cursor: pointer;
+    }
+    .remove:hover {
+        filter: contrast(2);
+    }
+
+    .remove {
+        background: #8B0000;
+    }
+
+    .repo {
+        text-decoration: none;
+        background: #000080;
     }
 
     hr {
